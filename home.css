@@ -962,31 +962,45 @@ gap: 20px;
 
 
 nav {
+  width: 100%;
+  background-color: #2b0032; /* ou a cor roxa que você quiser */
+  height: 60px;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
-  font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
-  height: 8vh;
-  width: 46vh;
-  margin-left: 70px;
+  padding: 0 20px;
 }
 
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  width: 100%;
+  height: 100%;
+}
 
 .nav-list {
   list-style: none;
   display: flex;
+  gap: 30px;
 }
 
 .nav-list li {
   letter-spacing: 3px;
   margin-left: 32px;
 }
+.menu {
+  width: 32000px;
 
+}
 .mobile-menu {
   display: none;
-  cursor: pointer;
-  width: 320px;
+  width: 32px;
+
 }
 
 .mobile-menu div {
