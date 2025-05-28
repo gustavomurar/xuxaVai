@@ -157,7 +157,7 @@ nav {
 
 .descricao-inicio {
   position: absolute;
-  margin-top: 70vh;
+  margin-top: 50vh;
   margin-left: 10vh;
   font-family: "Poppins", sans-serif;
 }
@@ -349,8 +349,8 @@ nav {
 
 .informacoes h1 {
   margin-top: -20px;
-  font-weight: 600;
-  font-size: 1.4rem;
+  font-weight: 100;
+  font-size: 1rem;
 }
 
 .informacoes p {
@@ -734,20 +734,7 @@ nav {
   margin-top: 50px;
 }
 
-.descricao-detalhada button {
-  width: 200px;
-  height: 30px;
-  margin-top: 30px;
-  border-radius: 50px;
-  border: none;
-  font-size: 1rem;
-  color: #362D73;
-}
 
-.descricao-detalhada button:hover {
-  transform: scale(1.02);
-  transition: 0.5s;
-}
 
 
 .descricao-detalhada {
@@ -757,9 +744,9 @@ nav {
   margin-top: 40px;
   gap: 50px;
   background-color: #362D73;
-  width: 180vh;
+  width: 0vh;
   border-radius: 10px;
-  height: 70vh;
+  height: 30vh;
 }
 
 .item-descricao1 img {
@@ -881,7 +868,7 @@ nav {
 .cincoprotudos {
   font-size: 20px;
   text-align: center;
-  margin-top: 20px;
+  margin-top: -550px;
 }
 
 /* anuncio5: MAIOR que 4 */
@@ -927,7 +914,7 @@ nav {
 
 .descricao-anuncio4 p{
   width: 300px;
-  font-size: 0.8rem;
+  font-size: 0.5rem;
   color: #f0f0f0;
   margin-left: 10px;
   margin-top: 20px;
@@ -999,6 +986,7 @@ nav {
 .mobile-menu {
   display: none;
   cursor: pointer;
+  width: 320px;
 }
 
 .mobile-menu div {
@@ -1045,9 +1033,9 @@ nav {
     margin-top: -65vh;
     margin-left: 5px;
     background-color: #362D73;
-    width: 44vh;
+    width: 54vh;
     border-radius: 10px;
-    height: 65vh;
+    height: 60vh;
   }
   
   .area-cards-simples{
@@ -1081,28 +1069,13 @@ nav {
     display: none;
   }
 
-  .descricao-detalhada button {
-    width: 350px;
-    height: 50px;
-    margin-top: 30px;
-    margin-left: -120px;
-    border: none;
-    font-size: 1rem;
-    color: #362D73;
-    font-family: "Poppins", sans-serif;
-    border-radius: 5px;
-    font-weight: 700;
-  }
+ 
   
-  .descricao-detalhada button:hover {
-    transform: scale(1.02);
-    transition: 0.5s;
-   
-  }
 
-  .descricao-detalhada h1{
+  .descricao-detalhada h2{
     margin-left: -120px;
     width: 40vh;
+    margin-top: 30px;
   }
 
   .item-descricao2 p{
